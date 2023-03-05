@@ -64,7 +64,7 @@ public class RubySdkImpl implements RubySdk {
       if (SystemInfo.isWindows) {
         executableName.append(".exe");
       }
-      myExecutablePath = new File(myHome, "bin" + File.separator + executableName );
+      myExecutablePath = new File(myHome, "bin" + File.separator + executableName);
     }
   }
 
