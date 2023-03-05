@@ -150,7 +150,7 @@ public class RVMCommandLineProcessor implements BuildCommandLineProcessor {
 
       setPermissions(script, SCRIPT_PERMISSIONS); // script needs to be made executable for all (chmod a+x)
     } catch (IOException e) {
-      throw new RunBuildException("Failed to create temp file, error: " + e );
+      throw new RunBuildException("Failed to create temp file, error: " + e);
     }
     return script;
   }
