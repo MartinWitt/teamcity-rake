@@ -160,7 +160,7 @@ public class RVMCommandLineProcessor implements BuildCommandLineProcessor {
     try {
       process.waitFor();
     } catch (InterruptedException e) {
-      Loggers.AGENT.warn("Failed to execute chmod " + perms + " " + script.getAbsolutePath() + ", error: " + e );
+      Loggers.AGENT.warn("Failed to execute chmod " + perms + " " + script.getAbsolutePath() + ", error: " + e);
     }
   }
 
